@@ -1,0 +1,177 @@
+* {
+  margin: 0 px;
+  padding: 0 px;
+}
+
+/** HEADER **/
+
+/** PHONE ITEMS **/
+.phoneItems {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+  padding: 0 px;
+  margin-top: 5vw;
+}
+
+.phone {
+  border: 5px blue;
+  width: 5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.phone img {
+  width: 5vw;
+}
+
+.phone p {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+}
+
+.phoneSpace {
+  height: 10px;
+  width: 10px;
+  flex: 6;
+}
+
+/** NAV **/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  margin: auto;
+  margin-top: 5vw;
+}
+
+.navLogo h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
+  font-size: 1.5em;
+  display: inline;
+}
+
+.navLogo {
+  display: inline;
+}
+
+.navMenu {
+  color: #6070ff;
+  font-size: 1.5em;
+  display: inline;
+  margin-right: 5%;
+}
+
+/** MAIN **/
+
+/** LANDING **/
+
+.landingBackground {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0 px;
+  left: 0 px;
+  z-index: -100;
+  overflow: hidden;
+}
+
+.O_solid1 {
+  position: absolute;
+  font-size: 20px;
+  left: 237px;
+  top: 657.1px;
+  color: #6070ff;
+}
+
+.O_solid2 {
+  position: absolute;
+  font-size: 11px;
+  left: 132.98px;
+  top: 155.81px;
+  color: #cbcdff;
+}
+
+.O_half1 {
+  position: absolute;
+  font-size: 38px;
+  left: -20px;
+  top: 161.47px;
+  color: #6070ff;
+  transform: rotate(-45deg);
+}
+
+.O_half2 {
+  position: absolute;
+  font-size: 38px;
+  left: 341.76px;
+  top: 546.69px;
+  color: #6070ff;
+  transform: rotate(-176.08deg);
+}
+
+.ring1 {
+  position: absolute;
+  font-size: 105px;
+  color: #6070ff;
+  left: 323px;
+  top: 152.24px;
+}
+
+#landing {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.hello {
+  width: 327px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hello h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.landingText {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.landingH3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.socialMedia {
+  display: flex;
+  font-size: 40px;
+}
+
+.socialMedia i {
+  margin-right: 5px;
+  color: #172b4d;
+}
