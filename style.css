@@ -1,0 +1,133 @@
+* {
+  margin: 0 px;
+  padding: 0 px;
+}
+
+/** HEADER **/
+
+/** PHONE ITEMS **/
+
+.phoneItems {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+  padding: 0 px;
+  margin-top: 5vw;
+}
+
+.phone {
+  width: 5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.phone p {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+}
+
+.phoneSpace {
+  height: 10px;
+  width: 10px;
+  flex: 6;
+}
+
+/** NAV **/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  margin: auto;
+  margin-top: 5vw;
+}
+
+.navLogo h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
+  font-size: 1.5em;
+  display: inline;
+}
+
+.navLogo {
+  display: inline;
+}
+
+.navMenu {
+  display: inline;
+  margin-right: 5%;
+}
+
+/** MAIN **/
+
+/** LANDING **/
+
+/** LANDING BACKGROUND **/
+.landingBackground {
+  position: absolute;
+  z-index: -100;
+  width: 100vw;
+  height: 100 vw;
+  left: 0 px;
+}
+
+#landing {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.landingSpace {
+  height: 15%;
+}
+
+.hello {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hello h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.landingText {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.landingH3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.socialMedia ul {
+  list-style-type: none;
+  margin: 0 px;
+  padding: 0 px;
+}
+
+.socialMedia li {
+  display: inline;
+  margin-right: 20px;
+}
