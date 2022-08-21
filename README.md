@@ -10,6 +10,22 @@
 - HTML
 - CSS
 
+## Getting Started
+To check this project, please follow this steps:
+
+- On GitHub.com, navigate to the main page of the repository.
+- Above the list of files, click the green "Code" button.
+- Copy the URL for the repository.
+- Open Git Bash.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier: $ git clone git@github.com:Oklukeok/Luke-s_Portfolio.git
+- Press Enter to create your local clone.
+- Open the folder with your integrated development environment (IDE).
+- You can check a live preview opening the HTML with a browser.
+
+NOTE:
+This is an early version of the project. You will not find any relevant content right now, but you will in the coming soon version.
+
 ## Author
 
 👤 Lucas Bermudez
