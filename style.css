@@ -131,3 +131,153 @@ nav {
   display: inline;
   margin-right: 20px;
 }
+
+/* SECTION WORKS */
+
+#works {
+  height: 2100px;
+  width: 375px;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(40, 2.5%);
+  grid-template-areas: "box0""box1""box2""box3""box4";
+}
+
+.tonic {
+  max-width: 327px;
+  height: 552px;
+  grid-area: 2 / 2 / 21 / 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "poppins", sans-serif;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.stories {
+  max-width: 327px;
+  max-height: 552px;
+  grid-area: 11 / 2 / 21 / 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "poppins", sans-serif;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.tonic2 {
+  max-width: 327px;
+  max-height: 552px;
+  grid-area: 20 / 2 / 30 / 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "poppins", sans-serif;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.stories2 {
+  max-width: 327px;
+  max-height: 552px;
+  grid-area: 29 / 2 / 42 / 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "poppins", sans-serif;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+/* TONIC */
+.tonicTitle {
+  font-size: 32px;
+  margin-top: 0 px;
+  color: #172b4d;
+}
+
+.tonicTitle p {
+  margin: 0 px;
+}
+
+.tonicList1 p {
+  margin: 0 px;
+  color: #7a869a;
+  font-size: 13px;
+}
+
+.tonicDescription p {
+  margin: 0 px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.htmlButtons button {
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  width: auto;
+  height: 24px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  border: none;
+  margin-top: 20px;
+}
+
+.seeProject button {
+  border-radius: 8px;
+  color: #6070ff;
+  width: auto;
+  height: 40px;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  background: none;
+  border: 2px solid #396df2;
+  margin-top: 20px;
+}
+
+/* ABOUT SECTION */
+#about {
+  width: 375px;
+  height: 1263px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
+
+.about1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.lan-list li {
+  display: inline;
+}
+
+.Q {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #253858;
+}
+
+.Q h4 {
+  margin-left: 20px;
+}
+
+.languages {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
