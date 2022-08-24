@@ -267,7 +267,7 @@ nav {
 
 .resumeButton button {
   border-radius: 8px;
-  color: #6070ff;
+  color: #396df2;
   width: auto;
   height: 40px;
   font-size: 17px;
@@ -281,7 +281,7 @@ nav {
 
 .seeProject button {
   border-radius: 8px;
-  color: #6070ff;
+  color: #396df2;
   width: auto;
   height: 40px;
   font-size: 17px;
@@ -293,27 +293,47 @@ nav {
 }
 
 .resumeButton button:active {
-  background: #d36b00;
+  background: #2230d2;
   color: white;
+  border: none;
+  border: 2px solid #2230d2;
 }
 
 .resumeButton button:hover {
-  background: #ffcb42;
+  background: #6070ff;
+  color: white;
+  border: none;
+  border: 2px solid #6070ff;
+}
+
+.resumeButton button:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
 }
 
 .seeProject button:hover {
-  background: #ffcb42;
+  background: #6070ff;
+  color: white;
+  border: none;
+  border: 2px solid #6070ff;
 }
 
 .seeProject button:active {
-  background: #d36b00;
+  background: #2230d2;
   color: white;
+  border: none;
+  border: 2px solid #2230d2;
+}
+
+.seeProject button:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
 }
 
 /* ABOUT SECTION */
 #about {
   width: 375px;
-  height: 1263px;
+  height: 1400px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -336,6 +356,9 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #253858;
+  margin-left: -10px;
+  margin-bottom: 30px;
+  background: #f7f7f9;
 }
 
 .Q p {
@@ -345,28 +368,52 @@ nav {
 .languages {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+  margin-left: 20px;
 }
 
 .arrow {
   position: absolute;
-  right: 1px;
+  right: 13%;
   margin-top: -50px;
 }
 
 .arrow2 {
-  height: 5%;
+  height: 4%;
   position: absolute;
-  right: 1px;
-  margin-top: -60px;
+  right: 13%;
+  margin-top: -58px;
 }
 
 .arrow3 {
-  height: 5%;
+  height: 4%;
   position: absolute;
-  right: 1px;
-  margin-top: -60px;
+  right: 13%;
+  margin-top: -58px;
 }
 
 .languajes {
   position: relative;
+}
+
+.languages2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-left: -20px;
+  margin-top: 50px;
+}
+
+.separator1 {
+  width: 95%;
+  height: 1px;
+  background: #dfe1e6;
+  margin-left: -2%;
+  margin-top: 30px;
+}
+
+.separator2 {
+  width: 95%;
+  height: 1px;
+  background: #dfe1e6;
+  margin-left: -2%;
+  margin-top: 30px;
 }
