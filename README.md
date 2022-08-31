@@ -4,6 +4,9 @@
 
 > Hello World I'm Lucas. In this repository you can see how I develop my first portfolio web site.
 
+## Project News! 
+
+> In this version was added a footer and a contact form to the portfolio website.
 
 ## Built With
 
