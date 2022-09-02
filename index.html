@@ -32,7 +32,12 @@
 
     <nav>
       <div class="navLogo"><h1>My Logo</h1></div>
-      <div class="navMenu"><img src="images/hamburguer_menu.png" alt="menu icon"></div>
+      <div class="navMenu">
+        <img src="images/hamburguer_menu.png" alt="menu icon">
+      </div>
+      <div class="navLink"><a>Portoflio</a></div>
+      <div class="navLink"><a>About</a></div>
+      <div class="navLink"><a>Contact</a></div>      
       
     </nav>
 
@@ -40,10 +45,12 @@
 
   <main>
     <div class="landingBackground">
-
-      <img src="images/landingBackground/header-shapes-mobile.png" alt="backgroud">
-      
+      <img src="images/landingBackground/header-shapes-mobile.png" alt="background">
     </div>
+    <div class="landingBackgroundDesktop">
+      <img class="shapesDesktop" src="images/landingBackground/shapes-desktop.png" alt="backgroud">
+    </div>
+    
     <section id="landing">
      
       <div class="landingSpace"></div>
@@ -69,9 +76,10 @@
     <section id="works">
       
       <div class="tonic">
-        <div>
+        <div class="tonicimg">
           <img src="images/works/tonic.png" alt="Tonic Work">
         </div>
+        <div class="tonicDesktop"><img src="images/works/desktop/tonic.png" alt=""></div>
         <div class="tonicContent">
           <div class="tonicTitle"><h2>Tonic</h2></div>
           <div class="tonicList1">
@@ -96,24 +104,26 @@
       </div>
       
       <div class="stories">
-        <div>
+        <div class="tonicimg">
           <img src="images/works/stories.png" alt="stories Work">
         </div>
+        <div class="tonicDesktop"><img src="images/works/desktop/stories.png" alt=""></div>
         <div class="storiesContent">
           <div class="tonicTitle"><h2>Multi-Post
             Stories</h2></div>
           <div class="tonicList1">
             <ul>
-              <li class="licap">CANOPY</li>
-              <li>• Back End Dev</li>
+              <li class="licap">FACEBOOK</li>
+              <li>• Full Stack Dev</li>
               <li>• 2015</li>
             </ul>
           </div>
           <div class="tonicDescription">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p>Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
           </div>
           <div class="htmlButtons">
             <button type="button">html</button>
+            <button type="button">Ruby on rails</button>
             <button type="button">css</button>
             <button type="button">javascript</button>
           
@@ -125,23 +135,25 @@
       </div>
 
       <div class="tonic2">
-        <div>
+        <div class="tonicimg">
           <img src="images/works/tonic2.png" alt="Tonic Work">
         </div>
+        <div class="tonicDesktop"><img src="images/works/desktop/tonic2.png" alt=""></div>
         <div class="tonic2Content">
-          <div class="tonicTitle"><h2>Tonic</h2></div>
+          <div class="tonicTitle"><h2>Facebook 360</h2></div>
           <div class="tonicList1">
             <ul>
-              <li class="licap">CANOPY</li>
-              <li>• Back End Dev</li>
+              <li class="licap">FACEBOOK</li>
+              <li>• Full Stack Dev</li>
               <li>• 2015</li>
             </ul>
           </div>
           <div class="tonicDescription">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
           </div>
           <div class="htmlButtons">
             <button type="button">html</button>
+            <button type="button">Ruby on rails</button>
             <button type="button">css</button>
             <button type="button">javascript</button>
           
@@ -153,24 +165,25 @@
       </div>
 
       <div class="stories2">
-        <div>
+        <div class="tonicimg">
           <img src="images/works/stories2.png" alt="stories Work">
         </div>
+        <div class="tonicDesktop"><img src="images/works/desktop/stories2.png" alt=""></div>
         <div class="stories2Content">
-          <div class="tonicTitle"><h2>Multi-Post
-            Stories</h2></div>
+          <div class="tonicTitle"><h2>Uber Navigation</h2></div>
           <div class="tonicList1">
             <ul>
-              <li class="licap">CANOPY</li>
-              <li>• Back End Dev</li>
-              <li>• 2015</li>
+              <li class="licap">Uber</li>
+              <li>• Lead Developer</li>
+              <li>• 2018</li>
             </ul>
           </div>
           <div class="tonicDescription">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
           </div>
           <div class="htmlButtons">
             <button type="button">html</button>
+            <button type="button">Ruby on rails</button>
             <button type="button">css</button>
             <button type="button">javascript</button>
           
@@ -198,10 +211,10 @@
                 don’t hestiate to contact me.
            </p>
           </div>
-          <div class="landingH3"><p>LET’S CONNECT</p></div>
+          <div class="landingH3" id="aboutConnect"><p>LET’S CONNECT</p></div>
     
     
-        <div class="socialMedia">
+        <div class="socialMedia" id="aboutSM">
           <ul>
             <li><a href=""><img src="images/social_media_icons/twitter.png" alt="Twitter"></a></li>
             <li><a href=""><img src="images/social_media_icons/Linkedin-icon.svg" alt="Linkedin"></a></li>
@@ -209,7 +222,7 @@
             <li><a href=""><img src="images/social_media_icons/cat.png" alt="Cat"></a></li>
             <li><a href=""><img src="images/social_media_icons/peace.png" alt="Peace"></a></li>
           </ul>
-         <div class="resumeButton">
+         <div class="resumeButton" id="aboutResume">
             <button type="button">Get my resume</button>
             </div>  
         </div>
@@ -223,7 +236,7 @@
               <h3>Languages</h3>
               <img class="arrow" src="images/arrow.png" alt=""> 
             </div>
-            <ul>
+            <ul class="aboutList2">
               <li>
                 <div class="Q">
                   <img src="images/languajes/js.png" alt="">
@@ -274,6 +287,9 @@
      
     <div class="footer_shapes">
       <img src="images/footer_shapes.png" alt="footer shapes">
+    </div>
+    <div class="footer_shapesDesktop">
+      <img src="images/contactDesktopBackgroun.png" alt="footer shapes">
     </div>
     <div class="footer_title">
       <h2>Contact me</h2>

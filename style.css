@@ -252,6 +252,22 @@ nav {
   color: #344563;
 }
 
+form button {
+  border-radius: 8px;
+  background: #fff;
+  color: #6070ff;
+  width: auto;
+  height: 40px;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 5px;
+}
+
 .htmlButtons button {
   background: #ebebff;
   border-radius: 8px;
@@ -290,6 +306,25 @@ nav {
   background: none;
   border: 2px solid #396df2;
   margin-top: 20px;
+}
+
+form button:hover {
+  background: #6070ff;
+  color: white;
+  border: none;
+  border: 2px solid #6070ff;
+}
+
+form button:active {
+  background: #2230d2;
+  color: white;
+  border: none;
+  border: 2px solid #2230d2;
+}
+
+form button:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
 }
 
 .resumeButton button:active {
@@ -347,6 +382,7 @@ nav {
   margin-left: 20px;
 }
 
+/*
 .lan-list li {
   display: inline;
 }
@@ -489,84 +525,81 @@ form li textarea {
   color: #172b4d;
 }
 
-form button {
-  border-radius: 8px;
-  background: #fff;
-  color: #6070ff;
-  width: auto;
-  height: 40px;
-  font-size: 17px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  margin-top: 20px;
-  border: none;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: 5px;
-}
-
-form button:hover {
-  background: #6070ff;
-  color: white;
-  border: none;
-  border: 2px solid #6070ff;
-}
-
-form button:active {
-  background: #2230d2;
-  color: white;
-  border: none;
-  border: 2px solid #2230d2;
-}
-
-form button:disabled {
-  color: #5e6c84;
-  border: 1px solid #c1c7d0;
-}
-
-
-
-
-
-
-
-
-
 @media screen and (min-device-width: 768px) {
-
-                                                   /*   HEADER  */
+  /*   HEADER  */
 
   header {
-    background-color: red;
-    margin: none;
+    margin: auto;
+    width: 75%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
   }
 
-  .phoneItems{
+  .phoneItems {
     display: none;
   }
 
-  .navMenu{
+  nav {
+    margin: auto;
+  }
+
+  .navMenu {
     display: none;
   }
 
-                                                /*      LANDING      */
+  .navLogo {
+    display: inline;
+    flex: 1;
+  }
 
-  .landingBackground{
+  .navLink {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    padding-left: 20px;
+  }
+
+  .navLogo h1 {
+    font-size: 18px;
+  }
+
+  /* LANDING */
+
+  .landingBackground {
     display: none;
+  }
+
+  .landingBackgroundDesktop {
+    position: relative;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+  }
+
+  .landingBackgroundDesktop img {
+    position: absolute;
+    right: 0%;
+    width: 95vw;
+    height: 90vh;
   }
 
   #landing {
+    margin-top: -20px;
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: yellow;
   }
 
   .hello {
     height: auto;
     width: 50%;
+    margin-top: 5%;
   }
 
   .hello h2 {
@@ -580,7 +613,7 @@ form button:disabled {
     line-height: 28px;
     width: 60%;
     margin: auto;
-  
+    margin-top: -3%;
   }
 
   .landingH3 {
@@ -590,8 +623,13 @@ form button:disabled {
     margin-left: 20%;
   }
 
+  .landingH3 h3 {
+    margin-bottom: 10%;
+  }
+
   .socialMedia {
-  margin-left: 17%;  
+    margin-left: 17%;
+    margin-bottom: 10%;
   }
 
   .socialMedia li {
@@ -599,10 +637,7 @@ form button:disabled {
     margin-right: 20px;
   }
 
-  
-
-
-                                                        /* section WORKS */
+  /* section WORKS */
 
   #works {
     height: 300vh;
@@ -611,11 +646,10 @@ form button:disabled {
     grid-template-rows: repeat(40, 2.5%);
     grid-template-columns: repeat(40, 2.5%);
     grid-template-areas: "tonic""box1""box2""box3";
-    background: black;
   }
-  
+
   .tonic {
-    grid-area: 3 / 4 / 11 / 38;
+    grid-area: 3 / 7 / 11 / 35;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -623,18 +657,64 @@ form button:disabled {
     font-family: "poppins", sans-serif;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    background: red;
     max-width: 100%;
     height: 100%;
   }
 
-  .tonicContent{
+  .tonicimg {
+    display: none;
+  }
+
+  .tonicDesktop {
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
+
+  .tonicDesktop img {
+    width: 90%;
+    height: 90%;
+  }
+
+  .tonicContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 47%;
+    height: 90%;
+    margin-top: 3%;
+  }
+
+  .tonicDescription p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .tonicList1 {
+    margin-top: 1%;
+  }
+
+  .tonicList1 li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .licap {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .htmlButtons {
+    margin-top: -4%;
+  }
+
   .stories {
-    grid-area: 13 / 4 / 21 / 38;
+    grid-area: 13 / 7 / 21 / 35;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
@@ -642,17 +722,19 @@ form button:disabled {
     font-family: "poppins", sans-serif;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    background: green;
     max-width: 100%;
   }
-  
-  .storiesContent{
+
+  .storiesContent {
     display: flex;
     flex-direction: column;
+    max-width: 47%;
+    height: 90%;
+    margin-top: 3%;
   }
 
   .tonic2 {
-    grid-area: 23 / 4 / 31 / 38;
+    grid-area: 23 / 7 / 31 / 35;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -660,17 +742,19 @@ form button:disabled {
     font-family: "poppins", sans-serif;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    background: blue;
     max-width: 100%;
   }
 
-  .tonic2Content{
+  .tonic2Content {
     display: flex;
     flex-direction: column;
+    max-width: 47%;
+    height: 90%;
+    margin-top: 3%;
   }
-  
+
   .stories2 {
-    grid-area: 33 / 4 / 41 / 38;
+    grid-area: 33 / 7 / 41 / 35;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
@@ -678,140 +762,158 @@ form button:disabled {
     font-family: "poppins", sans-serif;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    background: pink;
     max-width: 100%;
   }
 
-  .stories2Content{
+  .stories2Content {
     display: flex;
     flex-direction: column;
+    max-width: 47%;
+    height: 90%;
+    margin-top: 3%;
   }
-  
-                                                    /* section ABOUT */
-  
-  #about{
-   display: flex;
-   flex-direction: row;
-   width: 100vw;
-   height: 80vh;
+
+  /* section ABOUT */
+
+  #about {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 80vh;
   }
 
   .about1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 0px;
+    margin-left: 0.1px;
     width: 50%;
   }
-  
+
   #hello {
     margin-left: 0%;
     width: 100px;
   }
 
   #hello2 h2 {
-    color: red;
-    margin-left: 17%;
+    color: #091e42;
+    margin-left: 60%;
     width: 100px;
   }
 
   #aboutText {
-    margin-left: 9%;
-    
+    margin-left: 30%;
   }
 
-  #aboutText p{
+  .Q p {
+    margin-left: 10%;
+  }
+
+  #aboutText p {
     margin-left: 0%;
-    width: 100px;
-
+    width: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
-  
 
-  
+  #aboutConnect {
+    margin-left: 30%;
+  }
 
+  #aboutSM {
+    margin-left: 25%;
+  }
 
+  #aboutResume {
+    margin-left: 5%;
+  }
 
+  .about2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.1px;
+    width: 50%;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .lan-list {
+    margin-top: 6%;
+  }
 
   .lan-list li {
     display: inline;
   }
-  
+
+  .aboutList2 {
+    margin-left: -15%;
+  }
+
+  .aboutList2 li {
+    display: inline;
+    width: auto;
+    float: left;
+  }
+
   .Q {
     display: flex;
+    flex-direction: column;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: #253858;
-    margin-left: -50px;
     margin-bottom: 30px;
     background: #f7f7f9;
     margin-top: 20px;
+    align-items: flex-start;
+    width: 120px;
+    height: 120px;
+    margin-right: 12px;
   }
-  
-  .Q p {
-    margin-left: 20px;
+
+  .Q img {
+    margin-top: 10%;
+    margin-bottom: -5%;
+    margin-left: 10%;
+    width: 45%;
   }
-  
+
   .languages {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin-left: -20px;
   }
-  
+
   .arrow {
     position: absolute;
     right: 13%;
     margin-top: -50px;
   }
-  
+
   .arrow2 {
     height: 4%;
     position: absolute;
     right: 13%;
     margin-top: -58px;
   }
-  
+
   .arrow3 {
     height: 4%;
     position: absolute;
     right: 13%;
     margin-top: -58px;
   }
-  
+
   .languajes {
     position: relative;
   }
-  
+
   .languages2 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin-left: -20px;
     margin-top: 50px;
   }
-  
+
   .separator1 {
     width: 95%;
     height: 1px;
@@ -819,7 +921,7 @@ form button:disabled {
     margin-left: -2%;
     margin-top: 30px;
   }
-  
+
   .separator2 {
     width: 95%;
     height: 1px;
@@ -827,7 +929,17 @@ form button:disabled {
     margin-left: -2%;
     margin-top: 30px;
   }
-  
 
+  /* FOOTER */
 
+  .footer_shapes {
+    display: none;
   }
+
+  .footer_shapesDesktop {
+    position: absolute;
+    right: -2%;
+    margin: 0.1px;
+    padding-top: 30px;
+  }
+}
