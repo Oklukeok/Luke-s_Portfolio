@@ -61,8 +61,8 @@ nav {
   margin-right: 5%;
 }
 
-.navLink{
-  display:none;
+.navLink {
+  display: none;
 }
 
 /** MAIN **/
@@ -146,6 +146,7 @@ nav {
   grid-template-rows: repeat(40, 2.5%);
   grid-template-areas: "box0""box1""box2""box3""box4";
 }
+
 .tonicDesktop {
   display: none;
 }
@@ -953,7 +954,7 @@ form li textarea {
 
   /* FOOTER */
 
-  footer{
+  footer {
     background-color: #6070ff;
     background-image: url(images/contactDesktopBackgroun.png);
     background-size: 80%;
@@ -971,5 +972,4 @@ form li textarea {
     margin: 0.1px;
     padding-top: 30px;
   }
-
 }
