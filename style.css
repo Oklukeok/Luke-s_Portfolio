@@ -4,6 +4,9 @@
 }
 
 /** HEADER **/
+header {
+  margin: auto;
+}
 
 /** PHONE ITEMS **/
 
@@ -66,24 +69,31 @@ nav {
 }
 
 /** MAIN **/
+main {
+  margin: auto;
+}
 
 /** LANDING **/
 
 /** LANDING BACKGROUND **/
 .landingBackground {
-  position: absolute;
   z-index: -100;
   width: 100vw;
   height: 100 vw;
   left: 0 px;
+  display: none;
 }
 
 #landing {
-  width: 90vw;
+  width: 100vw;
   height: 80vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: auto;
+  background-image: url("images/landingBackground/header-shapes-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .landingSpace {
@@ -96,6 +106,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin: auto;
 }
 
 .hello h2 {
@@ -116,6 +127,7 @@ nav {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin: auto;
 }
 
 .landingH3 {
@@ -123,12 +135,19 @@ nav {
   font-style: normal;
   font-size: 16px;
   color: #7f8cff;
+  margin-left: -180px;
+}
+
+.landingH3 h3 {
+  margin: auto;
+  display: inline;
 }
 
 .socialMedia ul {
   list-style-type: none;
   margin: 0 px;
   padding: 0 px;
+  margin-left: -150px;
 }
 
 .socialMedia li {
@@ -145,6 +164,7 @@ nav {
   grid-template-columns: repeat(10, 10%);
   grid-template-rows: repeat(40, 2.5%);
   grid-template-areas: "box0""box1""box2""box3""box4";
+  margin: auto;
 }
 
 .tonicDesktop {
@@ -383,6 +403,18 @@ form button:disabled {
   margin: auto;
 }
 
+#aboutConnect {
+  margin-left: 0.1px;
+}
+
+#aboutSM {
+  margin-left: 110px;
+}
+
+#aboutResume {
+  margin-left: -130px;
+}
+
 .about1 {
   display: flex;
   flex-direction: column;
@@ -615,6 +647,7 @@ form li textarea {
   .hello {
     height: auto;
     width: 50%;
+    margin: 0.1px;
     margin-top: 5%;
   }
 
@@ -646,6 +679,12 @@ form li textarea {
   .socialMedia {
     margin-left: 17%;
     margin-bottom: 10%;
+  }
+
+  .socialMedia ul {
+    margin: 0.1px;
+    margin-left: 10px;
+    margin-top: 30px;
   }
 
   .socialMedia li {
@@ -841,6 +880,7 @@ form li textarea {
 
   #aboutSM {
     margin-left: 25%;
+    margin-top: -30px;
   }
 
   #aboutResume {
