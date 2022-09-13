@@ -1,11 +1,67 @@
-* {
-  margin: 0 px;
-  padding: 0 px;
-}
 
 /** HEADER **/
 header {
   margin: auto;
+}
+
+#menuMobile {
+  width: 102vw;
+  height: 102vh;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(8px);
+  position: fixed;
+  top: 0.1px;
+  left: 0.1px;
+  display: none;
+}
+
+#menuItems {
+  filter: invert();
+}
+
+#menuMobile img {
+  margin-left: 87%;
+  margin-top: 10px;
+}
+
+.socialMedia ul {
+  list-style-type: none;
+  margin-left: -150px;
+}
+
+#menuMobile ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.socialMedia li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.tonicList1 li {
+  display: inline;
+}
+
+.lan-list li {
+  display: inline;
+}
+
+#menuMobile li {
+  margin-bottom: 24px;
+}
+
+#menuMobile a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  text-decoration: none;
 }
 
 /** PHONE ITEMS **/
@@ -16,7 +72,6 @@ header {
   align-items: center;
   width: 90vw;
   margin: auto;
-  padding: 0 px;
   margin-top: 5vw;
 }
 
@@ -79,8 +134,7 @@ main {
 .landingBackground {
   z-index: -100;
   width: 100vw;
-  height: 100 vw;
-  left: 0 px;
+  left: 0%;
   display: none;
 }
 
@@ -141,18 +195,6 @@ main {
 .landingH3 h3 {
   margin: auto;
   display: inline;
-}
-
-.socialMedia ul {
-  list-style-type: none;
-  margin: 0 px;
-  padding: 0 px;
-  margin-left: -150px;
-}
-
-.socialMedia li {
-  display: inline;
-  margin-right: 20px;
 }
 
 /* SECTION WORKS */
@@ -226,17 +268,14 @@ main {
 /* TONIC */
 .tonicTitle {
   font-size: 32px;
-  margin-top: -00 px;
   color: #172b4d;
 }
 
 .tonicTitle h2 {
-  margin: 0 px;
   display: inline;
 }
 
 .tonicTitle p {
-  margin: 0 px;
   margin-top: -80px;
 }
 
@@ -249,10 +288,6 @@ main {
   color: #7a869a;
   margin-left: -40px;
   margin-top: -20px;
-}
-
-.tonicList1 li {
-  display: inline;
 }
 
 .licap {
@@ -268,13 +303,11 @@ main {
 }
 
 .tonicList1 p {
-  margin: 0 px;
   color: #7a869a;
   font-size: 13px;
 }
 
 .tonicDescription p {
-  margin: 0 px;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
@@ -420,10 +453,6 @@ form button:disabled {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 20px;
-}
-
-.lan-list li {
-  display: inline;
 }
 
 .Q {

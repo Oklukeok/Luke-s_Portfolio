@@ -19,6 +19,24 @@
  
   <header>
     
+    <div id="menuMobile">
+      <div class="phoneItems" id="menuItems">
+
+        <div class="phone phoneTime"><p>9:41</p></div>
+        <div class="phone phoneSpace"></div>
+        <div class="phone phoneSignal"><img src="images/phoneItems/cellularConnection.png" alt="conection"></div>
+        <div class="phone phoneWifi"><img src="images/phoneItems/Wifi.png" alt="wifi"></div>
+        <div class="phone phoneBattery"><img src="images/phoneItems/Battery.png" alt="battery"></div>
+  
+      </div>
+      <img src="images/closeMenu.png" id="menuClose">
+      <ul>
+        <li><a href="#works" id="menuOption1">Portfolio</a></li>
+        <li><a href="#about" id="menuOption2">About</a></li>
+        <li><a href="#contact" id="menuOption3">Contact</a></li>
+      </ul>
+    </div>
+   
     <div class="phoneItems">
 
       <div class="phone phoneTime"><p>9:41</p></div>
@@ -33,7 +51,7 @@
     <nav>
       <div class="navLogo"><h1>My Logo</h1></div>
       <div class="navMenu">
-        <img src="images/hamburguer_menu.png" alt="menu icon">
+        <img src="images/hamburguer_menu.png" id="trigger" alt="menu icon">
       </div>
       <div class="navLink"><a>Portoflio</a></div>
       <div class="navLink"><a>About</a></div>
@@ -281,12 +299,12 @@
   </main>
   <footer>
      
-    <div class="footer_shapes">
+    <div class="footer_shapes" >
       <img src="images/footer_shapes.png" alt="footer shapes">
     </div>
     
     <div class="footer_title">
-      <h2>Contact me</h2>
+      <h2 id="contact">Contact me</h2>
     </div>
     <div class="footer_p">If you have an application you are interested in developing,
       a feature that you need built or a project that needs coding. I’d love to help with it 
@@ -312,6 +330,7 @@
     
   </footer>
 
+  <script src="script.js"></script>
 </body>
 
 </html>
