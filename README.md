@@ -1,17 +1,16 @@
-<<<<<<< HEAD
-
 # Luke's Portfolio Project.
 
 > Hello World I'm Lucas. In this repository you can see how I develop my first portfolio web site.
 
 ## Project News! 
 
-> In this version was added a footer and a contact form to the portfolio website.
+> Hamburger menu is now available on MOBILE VERSION! 
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 
 ## Getting Started
 To check this project, please follow this steps:
