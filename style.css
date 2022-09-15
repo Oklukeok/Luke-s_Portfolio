@@ -808,8 +808,8 @@ form li textarea {
     background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    width: 50%;
-    height: 90%;
+    width: 770px;
+    height: 673px;
     margin: auto;
     margin-top: 30px;
     overflow: hidden;
@@ -867,6 +867,16 @@ form li textarea {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+  }
+
+  .socialMedia ul {
+    margin: 0.1px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  #languages-list ul {
+    margin-right: 10px;
   }
 
   .socialMedia li {
@@ -1010,7 +1020,7 @@ form li textarea {
     font-size: 15px;
     line-height: 24px;
     color: #344563;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .linksFlex {
@@ -1058,7 +1068,7 @@ form li textarea {
     margin-right: 10px;
   }
 
-  .seeTonic {
+  #seeTonic {
     display: none;
   }
 
@@ -1174,12 +1184,6 @@ form li textarea {
   .socialMedia {
     margin-left: 17%;
     margin-bottom: 10%;
-  }
-
-  .socialMedia ul {
-    margin: 0.1px;
-    margin-left: 10px;
-    margin-top: 30px;
   }
 
   /* section WORKS */

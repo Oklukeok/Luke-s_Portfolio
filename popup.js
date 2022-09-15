@@ -141,13 +141,13 @@ document.getElementById('seeTonic2').addEventListener('click', () => {
   document.getElementById('modal_li2').textContent = projects[0].clases2;
   document.getElementById('modal_li3').textContent = projects[0].clases3;
   document.getElementById('project-image').src = projects[0].ftdImage1;
-  document.getElementById('modal_li4').textContent = projects[0].technologies;
+  document.getElementById('modal_li4').textContent = projects[0].technologies0;
   document.getElementById('modal_li5').textContent = projects[0].technologies1;
   document.getElementById('modal_li6').textContent = projects[0].technologies2;
   document.getElementById('modal_li7').textContent = projects[0].technologies3;
   document.getElementById('modal_li8').textContent = projects[0].technologies4;
   document.getElementById('modal_li9').textContent = projects[0].technologies5;
-  document.getElementById('modal-description').textContent = projects[0].description1;
+  document.getElementById('modal-description').textContent = projects[0].description;
   document.getElementById('live-link').textContent = projects[0].liveVersion;
   document.getElementById('source-link').textContent = projects[0].source;
 });
