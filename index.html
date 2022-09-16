@@ -112,8 +112,11 @@
             <button type="button">javascript</button>
           </div> 
           <div class="seeProject">
-            <button type="button">See Project</button>
-            </div>  
+            <button type="button" id="seeTonic">See Project</button>
+            </div>
+            <div class="seeProject">
+              <button type="button" id="seeTonic2">See Project</button>
+              </div>   
         </div>
       </div>
       
@@ -143,8 +146,11 @@
           
           </div> 
           <div class="seeProject">
-          <button type="button">See Project</button>
+          <button id="seeMultiPost" type="button">See Project</button>
           </div>
+          <div class="seeProject">
+            <button id="seeMultiPost2" type="button">See Project</button>
+            </div>
         </div>    
       </div>
 
@@ -173,8 +179,11 @@
           
           </div> 
           <div class="seeProject">
-          <button type="button">See Project</button>
-          </div>  
+          <button id="seeFacebook" type="button">See Project</button>
+          </div>
+          <div class="seeProject">
+            <button id="seeFacebook2" type="button">See Project</button>
+            </div>   
         </div>
       </div>
 
@@ -202,9 +211,12 @@
             <button type="button">javascript</button>
           
           </div> 
-          <div class="seeProject">
+          <div id="seeUber" class="seeProject">
           <button type="button">See Project</button>
-          </div>  
+          </div>
+          <div id="seeUber2" class="seeProject">
+            <button type="button">See Project</button>
+            </div>    
         </div>
       </div>
     
@@ -329,8 +341,53 @@
     </form>
     
   </footer>
+  
+  <div class="modal-container" id="modal-container">
+    
+    <div class="project-modal" id ="project-modal">
+        <img src="" class="modal-close" id ="modal-close">                        
+         <h2 id="project-name" class="project-name"></h2>
+         <ul id="list">
+            <li id="modal_li1"></li>
+            <li id="modal_li2"></li>
+            <li id="modal_li3"></li>
+        </ul>
+                <div class="modal-grid">                                
+                         <img src="" alt="project image" id="project-image" >                                            
+                    <div class="descp-container">
+                      <p id="modal-description"></p>
+                      <div id="flex-flex">
+                        
+
+                      <ul class="languages-list" id="languages-list">
+                            <li id="modal_li4"></li>
+                            <li id="modal_li5"></li>
+                            <li id="modal_li6"></li>
+                            <li id="modal_li7"></li>
+                            <li id="modal_li8"></li>
+                            <li id="modal_li9"></li>
+                        </ul>
+                     
+                     <div class="linksFlex"> 
+                      <div class="link-group">
+                         <div><a id="live-link" href="#" target="new"></a></div>
+                         <div><img id="liveIMG" src=""></div>
+                     </div>
+                  
+                     <div class="link-group">
+                     <div><a id="source-link" href="#" target="new"></a></div>
+                     <div><img id="srcIMG" src=""></div>
+                    </div> 
+                    </div>
+                  </div>
+                </div>
+            </div>                                      
+     </div>
+    </div>
+
 
   <script src="script.js"></script>
+  <script src="popup.js"></script>
 </body>
 
 </html>
