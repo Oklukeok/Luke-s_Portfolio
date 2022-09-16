@@ -11,6 +11,29 @@ header {
 #seeTonic2 {
   display: none;
 }
+#seeMultiPost {
+  display: block;
+}
+
+#seeMultiPost2 {
+  display: none;
+}
+
+#seeFacebook {
+  display: block;
+}
+
+#seeFacebook2 {
+  display: none;
+}
+
+#seeUber {
+  display: block;
+}
+
+#seeUber2 {
+  display: none;
+}
 
 #modal-container {
   width: 102vw;
@@ -28,10 +51,12 @@ header {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  width: 90%;
+  min-width: 350px;
+  max-width: 90%;
   height: 90%;
+  height:650px ;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -46,7 +71,7 @@ header {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  margin-top: -35px;
+  margin-top: -10%;
   margin-left: 20px;
 }
 
@@ -55,21 +80,29 @@ header {
   display: flex;
   flex-direction: row;
   margin-left: -20px;
-  margin-top: -20px;
+  margin-top: -30px;
 }
 
 #project-image {
-  display: inline;
-  width: 90%;
-  margin-left: 5%;
+  display: block;
+  width: 60%;
+  min-width: 311px;
+  /*margin-left: 5%*/
+  margin: auto;
+
+}
+
+#flex-flex {
+  display: flex;
+  flex-direction: column;
 }
 
 #languages-list {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  margin-top: -80px;
-  margin-left: -4%;
+  margin-top: -10px;
+  margin-left: -20px;
 }
 
 .socialMedia li {
@@ -156,8 +189,8 @@ header {
 }
 
 #modal-description {
-  width: 311px;
-  height: 220px;
+  width: 90%;
+  
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -168,6 +201,7 @@ header {
 .linksFlex {
   display: flex;
   justify-content: center;
+  margin-top: 30px;;
 }
 
 .link-group {
@@ -180,7 +214,6 @@ header {
   letter-spacing: 0.03em;
   background: none;
   border: 2px solid #396df2;
-  margin-top: 20px;
   display: flex;
   align-items: center;
   margin-right: 10px;
@@ -840,9 +873,11 @@ form li textarea {
   }
 
   #project-image {
-    display: inline;
+    display: block;
+    margin: auto;
     width: 95%;
-    margin-left: 2.5%;
+    
+    
   }
 
   .descp-container {
@@ -850,6 +885,7 @@ form li textarea {
     display: flex;
     justify-content: flex-end;
     width: 95%;
+    min-width: 500px;
   }
 
   #flex-flex {
@@ -866,7 +902,7 @@ form li textarea {
     margin-left: -15%;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 95%;
   }
 
   .socialMedia ul {
@@ -1027,6 +1063,7 @@ form li textarea {
     display: flex;
     justify-content: center;
     width: auto;
+    margin-top: 0%;
   }
 
   .link-group {
@@ -1075,6 +1112,34 @@ form li textarea {
   #seeTonic2 {
     display: block;
   }
+
+  #seeMultiPost {
+    display: none;
+  }
+  
+  #seeMultiPost2 {
+    display: block;
+  }
+  
+  #seeFacebook {
+    display: none;
+  }
+  
+  #seeFacebook2 {
+    display: block;
+  }
+  
+  #seeUber {
+    display: none;
+  }
+  
+  #seeUber2 {
+    display: block;
+  }
+
+
+
+
 
   header {
     margin: auto;
