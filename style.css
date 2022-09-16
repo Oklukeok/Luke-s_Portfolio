@@ -11,6 +11,7 @@ header {
 #seeTonic2 {
   display: none;
 }
+
 #seeMultiPost {
   display: block;
 }
@@ -54,7 +55,7 @@ header {
   min-width: 350px;
   max-width: 90%;
   height: 90%;
-  height:650px ;
+  height: 650px;
   margin: auto;
   margin-top: 5%;
   font-family: 'Poppins', sans-serif;
@@ -87,9 +88,7 @@ header {
   display: block;
   width: 60%;
   min-width: 311px;
-  /*margin-left: 5%*/
   margin: auto;
-
 }
 
 #flex-flex {
@@ -190,7 +189,6 @@ header {
 
 #modal-description {
   width: 90%;
-  
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -201,7 +199,7 @@ header {
 .linksFlex {
   display: flex;
   justify-content: center;
-  margin-top: 30px;;
+  margin-top: 30px;
 }
 
 .link-group {
@@ -876,8 +874,6 @@ form li textarea {
     display: block;
     margin: auto;
     width: 95%;
-    
-    
   }
 
   .descp-container {
@@ -1116,30 +1112,26 @@ form li textarea {
   #seeMultiPost {
     display: none;
   }
-  
+
   #seeMultiPost2 {
     display: block;
   }
-  
+
   #seeFacebook {
     display: none;
   }
-  
+
   #seeFacebook2 {
     display: block;
   }
-  
+
   #seeUber {
     display: none;
   }
-  
+
   #seeUber2 {
     display: block;
   }
-
-
-
-
 
   header {
     margin: auto;

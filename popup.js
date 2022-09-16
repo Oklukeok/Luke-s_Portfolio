@@ -109,7 +109,6 @@ document.getElementById('modal-close').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'none';
 });
 
-
 document.getElementById('seeMultiPost').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
 
@@ -131,7 +130,6 @@ document.getElementById('seeMultiPost').addEventListener('click', () => {
   document.getElementById('liveIMG').src = projects[1].liveButton;
   document.getElementById('srcIMG').src = projects[1].sourceButton;
 });
-
 
 document.getElementById('seeFacebook').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
@@ -177,11 +175,10 @@ document.getElementById('seeUber').addEventListener('click', () => {
   document.getElementById('srcIMG').src = projects[3].sourceButton;
 });
 
-//desktop
+// desktop
 
 document.getElementById('seeTonic2').addEventListener('click', () => {
   document.getElementById('modal-container').style.display = 'block';
-
   document.getElementById('project-name').textContent = projects[0].name;
   document.getElementById('modal_li1').textContent = projects[0].clases1;
   document.getElementById('modal_li2').textContent = projects[0].clases2;
