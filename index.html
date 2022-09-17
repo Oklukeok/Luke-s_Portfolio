@@ -322,7 +322,7 @@
       a feature that you need built or a project that needs coding. I’d love to help with it 
     </div>
 
-    <form action="https://formspree.io/f/xdojkjpl" method="POST">
+    <form id="form" action="https://formspree.io/f/xdojkjpl" method="POST">
       <ul>
         <li>
             <label for="name"></label>
@@ -337,8 +337,10 @@
             <textarea id="msg" name="user_message" maxlength="500" cols="30" rows="10" required placeholder="Write your message here"></textarea>
       </ul>
     <button type="submit" id="sub">Get in touch</button>
-
-    </form>
+    
+    <h5 id="mistake"></h5>
+  
+  </form>
     
   </footer>
   
@@ -388,6 +390,7 @@
 
   <script src="script.js"></script>
   <script src="popup.js"></script>
+  <script src="validation.js"></script>
 </body>
 
 </html>
